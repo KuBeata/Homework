@@ -1,0 +1,430 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+* {
+    box-sizing: border-box;
+}
+.top_text_box{
+    width: 46px;
+    height: 16px;
+    margin-bottom: 27px;
+}
+.top_text{
+    color: #444444;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+}
+
+.big_box{
+    width: 912px;
+    height: 719px; 
+}
+
+.upper_part{
+    display:flex;
+    margin-bottom: 24px;
+}
+
+.round_white_buttons{
+    width: 456px;
+    height: 167px;
+    background-color: #EEEEEE;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-basis: 50%;
+}
+
+.round_white_left_button{
+    background-color: #009688;
+    border: 0.5px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.12), 0px 8px 8px rgba(0, 0, 0, 0.24);
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.round_white_left_button_image {
+    width: 14px;
+    height: 14px;
+}
+
+.round_white_right_button {
+    background-color: #009688;
+    border: 0.5px;
+    box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.12), 0px 14px 14px rgba(0, 0, 0, 0.237602);
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.round_white_right_button_image {
+    width: 14px;
+    height: 14px;
+}
+
+
+.round_black_buttons{
+    width: 456px;
+    height: 167px;
+    background-color: #303030;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-basis: 50%;
+}
+
+.round_black_left_button{
+    background-color: #80CBC4;
+    border: 0.5px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.12), 0px 8px 8px rgba(0, 0, 0, 0.24);
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.round_black_left_button_image {
+    width: 14px;
+    height: 14px;
+}
+
+.round_black_right_button {
+    background-color: #80CBC4;
+    border: 0.5px;
+    box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.12), 0px 14px 14px rgba(0, 0, 0, 0.237602);
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.round_black_right_button_image {
+    width: 14px;
+    height: 14px;
+}
+
+
+
+
+.lower_part{
+    display: flex;
+}
+
+
+
+.white_lower_part{
+    background-color: #EEEEEE;
+    width: 456px;
+    height: 485px;
+    flex-basis: 50%;
+    position: relative;
+    
+}
+
+.white_left_text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.537591);
+    width: 21px;
+    height: 16px;
+    display: inline-block;
+    position: absolute;
+    left: 125.5px;
+    top: 49px;
+}
+.white_right_text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.537591);
+    width: 37px;
+    height: 16px;
+    display: inline-block;
+    position: absolute;
+    right: 119.5px;
+    top: 49px;
+}
+
+.rectangle_white_left_normal_button{
+    background-color: transparent;
+    border: none;
+    width: 94px;
+    height: 36px;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 88px;
+    top: 121px;
+
+    
+}
+.rectangle_white_left_normal_button_text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #009688;
+}
+
+.rectangle_white_right_normal_button{
+    background-color: #009688;
+    border: none;
+    width: 94px;
+    height: 36px;
+    border-radius: 2px;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.12), 0px 2px 2px rgba(0, 0, 0, 0.24);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 90px;
+    top: 121px;
+    
+}
+.rectangle_white_right_normal_button_text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.rectangle_white_left_pressed_button{
+    background: linear-gradient(0deg, rgba(153, 153, 153, 0.2), rgba(153, 153, 153, 0.2));
+    border: none;
+    width: 94px;
+    height: 36px;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 88px;
+    top: 229px;
+    
+}
+.rectangle_white_left_pressed_button_text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #009688;
+}
+
+.rectangle_white_right_pressed_button{
+    background: linear-gradient(0deg, rgba(189, 189, 189, 0.3), rgba(189, 189, 189, 0.3)), #009688;
+    border: none;
+    width: 96px;
+    height: 36px;
+    border-radius: 2px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.12), 0px 8px 8px rgba(0, 0, 0, 0.24);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 89px;
+    top: 229px;
+}
+.rectangle_white_right_pressed_button_text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.rectangle_white_left_disabled_button{
+    background-color: transparent;
+    border: none;
+    width: 101px;
+    height: 36px;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 85px;
+    top: 340px;
+}
+.rectangle_white_left_disabled_button_text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.38);
+}
+.rectangle_white_right_disabled_button{
+    background: linear-gradient(0deg, rgba(79, 79, 79, 0.26), rgba(79, 79, 79, 0.26));
+    border: none;
+    width: 101px;
+    height: 36px;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 87px;
+    top: 340px;
+}
+.rectangle_white_right_disabled_button_text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.38);
+}
+
+
+
+
+
+
+.black_lower_part{
+    background-color: #303030;
+    width: 456px;
+    height: 485px;
+    flex-basis: 50%;
+    position: relative;
+}
+
+.black_left_text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.7);
+    position: absolute;
+    left: 125.5px;
+    top: 49px;
+}
+.black_right_text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.7);
+    position: absolute;
+    right: 119.5px;
+    top: 49px;
+}
+
+.rectangle_black_left_normal_button{
+    background-color: transparent;
+    border: none;
+    width: 94px;
+    height: 36px;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 88px;
+    top: 121px;
+}
+.rectangle_black_left_normal_button_text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    color:#80CBC4;
+}
+
+.rectangle_black_right_normal_button{
+    background: linear-gradient(0deg, #92CBC5, #92CBC5), #009688;
+    border: none;
+    width: 94px;
+    height: 36px;
+    border-radius: 2px;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.12), 0px 2px 2px rgba(0, 0, 0, 0.24);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 90px;
+    top: 121px;
+}
+.rectangle_black_right_normal_button_text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.871943);;
+}
+
+.rectangle_black_left_pressed_button{
+    background: linear-gradient(0deg, rgba(204, 204, 204, 0.25), rgba(204, 204, 204, 0.25));
+    border: none;
+    width: 94px;
+    height: 36px;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 88px;
+    top: 229px;
+}
+.rectangle_black_left_pressed_button_text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #80CBC4;
+}
+
+.rectangle_black_right_pressed_button{
+    background: linear-gradient(0deg, #92CBC5, #92CBC5), #009688;
+    border: none;
+    width: 96px;
+    height: 36px;
+    border-radius: 2px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.12), 0px 8px 8px rgba(0, 0, 0, 0.24);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 89px;
+    top: 229px;
+}
+.rectangle_black_right_pressed_button_text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.871943);
+}
+
+.rectangle_black_left_disabled_button{
+    background-color: transparent;
+    border: none;
+    width: 101px;
+    height: 36px;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 85px;
+    top: 340px;
+}
+.rectangle_black_left_disabled_button_text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.3);
+}
+.rectangle_black_right_disabled_button{
+    background: linear-gradient(0deg, rgba(204, 204, 204, 0.12), rgba(204, 204, 204, 0.12));
+    border: none;
+    width: 101px;
+    height: 36px;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 87px;
+    top: 340px;
+}
+.rectangle_black_right_disabled_button_text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.3);
+}
